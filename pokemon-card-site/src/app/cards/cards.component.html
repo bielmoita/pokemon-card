@@ -1,0 +1,28 @@
+<div>
+    <h1>Listando os cards</h1>
+    <input type="text" name="" placeholder="Busque aqui seus cards">
+    <div *ngFor="let cards of listaCards">
+        <!-- Tem que trazer: ID, Nome, Nationalpokedexnumber, hp, imageUrl -->
+        <div>
+            {{ cards.name }}
+        </div>
+
+        <div>
+            {{ cards.hp }}
+        </div>
+
+        <div>
+            {{ cards.id }}
+        </div>
+
+        <div>
+            {{cards.nationalPokedexNumber}}
+        </div>
+
+        <div>
+            <a [routerLink]="'/verCard/' + cards.id"><img [src]="cards.imageUrl" alt=""> </a>
+            
+            
+        </div>
+    </div>
+</div>

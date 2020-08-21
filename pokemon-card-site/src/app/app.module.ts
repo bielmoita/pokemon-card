@@ -3,18 +3,32 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { SobreComponent } from './sobre/sobre.component';
 import { HomeComponent } from './home/home.component';
+import { SobreComponent } from './sobre/sobre.component';
+import { CardsComponent } from './cards/cards.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { FooterComponent } from './footer/footer.component';
+import { HttpClientModule } from '@angular/common/http';
+import { VerCardComponent } from './ver-card/ver-card.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
+    HomeComponent,
     SobreComponent,
-    HomeComponent
+    CardsComponent,
+    NavbarComponent,
+    FooterComponent,
+    VerCardComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    
+    
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
