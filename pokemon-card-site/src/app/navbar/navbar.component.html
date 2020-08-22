@@ -1,23 +1,23 @@
-<nav>
-    <img routerLink="" src="assets/img/pokebola_logo.png" alt="">
-    <a routerLink="#">Pokemon Card's</a>
+<div class="container-fluid w-100 d-flex navbar-site">
+  <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <img class="Logo-Inicial" routerLink="/home" src="assets/img/pokebola_logo.png" alt="">
     
-  
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul>
-        <li>
-          <a routerLink='/home'>Home </a>
+    <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+      <ul class="navbar-nav ">
+        <li class="nav-item ">
+          <a class="nav-link texto p-3 border-right text-uppercase text-monospace font-weight-bold" routerLink='/home' > Home<span class="sr-only">(página atual)</span></a>
         </li>
-        <li>
-          <a routerLink='/sobre'>Sobre</a>
+        <li class="nav-item ">
+          <a class="nav-link texto p-3 border-right text-uppercase text-monospace font-weight-bold" routerLink='/sobre'>Sobre<span class="sr-only">(página atual)</span></a>
         </li>
-        <li >
-          <a routerLink='/cards'>Cards</a>
+        <li class="nav-item ">
+          <a class="nav-link texto p-3 text-uppercase text-monospace font-weight-bold" routerLink='/cards'>Cards</a>
         </li>
       </ul>
-      <!-- <form>
-        <input type="search" placeholder="Pesquise seus Card's Pokemon" aria-label="Search">
-        <button type="submit">Pesquisar</button>
-      </form> -->
     </div>
+    
   </nav>
+</div>

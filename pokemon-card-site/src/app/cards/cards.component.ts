@@ -9,8 +9,14 @@ import { Card } from '../model/Card';
   styleUrls: ['./cards.component.sass']
 })
 export class CardsComponent implements OnInit {
+  
+  key = 'name'
+  reverse=false
+    
   cards:any;
   listaCards: Card[];
+
+  name:string;
 
   constructor(private cardsService: CardsService) { }
 
@@ -27,6 +33,15 @@ export class CardsComponent implements OnInit {
         console.log(resp)
       });
     }
+
+  pesquisarPorNome(){
+    this.cardsService.findByName(this.name).subscribe(
+    (resp: Card[]) =>{
+      this.listaCards = resp  
+      console.log(resp)  
+    }
+    )
+  }
 
 }
 

@@ -10,7 +10,8 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { HttpClientModule } from '@angular/common/http';
 import { VerCardComponent } from './ver-card/ver-card.component';
-
+import { FormsModule } from '@angular/forms';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { VerCardComponent } from './ver-card/ver-card.component';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    
+    FormsModule,
+    FontAwesomeModule 
     
     
   ],
