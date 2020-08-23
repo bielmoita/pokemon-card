@@ -1,6 +1,5 @@
 # POKEMON-CARD
-<img src="https://img.shields.io/badge/Angular-9.1.1-red">
-<img src="https://img.shields.io/badge/NETLIFY-DEPLOY-blue">
+<img src="https://img.shields.io/badge/Angular-9.1.1-red"> <img src="https://img.shields.io/badge/NETLIFY-DEPLOY-blue">
 
 Contruir um front para consumir a API do [PokemonTCG](https://pokemontcg.io/)
 
