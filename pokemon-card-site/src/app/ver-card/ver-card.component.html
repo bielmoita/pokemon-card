@@ -1,32 +1,42 @@
 <div class="container">
-    <h1>Ver Card Pokemon</h1>
+    <h1 class="mb-5">Ver Card Pokemon</h1>
 
  
 
         <div class="row">
-            <div class="col-6">
-                <img [src]="card.imageUrlHiRes" alt="" class="mr-5 mb-5 ">
+            <div class="col-6 col-md-6 text-center">
+                <img [src]="card.imageUrlHiRes" alt="" class="mb-3 ">
             </div>
-
-            <div class="col-6">
-               <ul class="list-group">
-                   <li class="list-group-item d-flex justify-content-between align-items-center"><p> Nome: {{ card.name }}</p></li>
-                   <li class="list-group-item"><p> ID: {{ card.id }}</p></li>
-                   <li class="list-group-item"><p> Tipo: {{card.types}}</p></li>
-                   <li class="list-group-item"><p> Ataques: <br> 
-                    Ataque 1) {{card.attacks[0].name}} - Dano: {{card.attacks[0].damage}} - Custo: {{card.attacks[0].cost}}<br>
-                    Descrição: {{card.attacks[0].text}}
-                    <br>
-                    Ataque 2) {{card.attacks[1].name}} - Dano: {{card.attacks[1].damage}} - Custo: {{card.attacks[1].cost}} <br>
-                    Descrição: {{card.attacks[1].text}}
-                  </p></li>
-                   <li class="list-group-item"><p> Resistencia: {{card.resistances[0].type}}, {{card.resistances[0].value}} </p></li>
-                   <li class="list-group-item"><p> Fraquezas: {{card.weaknesses[0].type}}, {{card.weaknesses[0].value}}</p></li>
-               </ul>
+                
+            <div class="col-sm-6 col-md-6 mb-5">
+                <div class="card">
+                    <div class="card-body">
+                        <ul>
+                            <li class="d-flex"><p class="p-bold mr-2"> Nome: </p> <p>{{ card.name }}</p></li>
+                            <li class="d-flex"><p class="p-bold mr-2"> ID: </p><p> {{ card.id }}</p></li>
+                            <li class="d-flex"><p class="p-bold mr-2"> Tipo: </p><p> {{card.types}}</p></li>
+                            <hr>
+                                <p class="p-bold">Ataque 1</p><p> {{card.attacks[0].name}}</p>
+                                <p class="p-bold">Dano: </p><p> {{card.attacks[0].damage}}</p>
+                                <p class="p-bold">Custo: </p><p> {{card.attacks[0].cost}}</p><br>
+                                    <p class="p-bold">Descrição:</p> 
+                                    <p>{{card.attacks[0].text}}</p>
+                                    <hr>
+                                <p class="p-bold">Ataque 2 </p><p>{{card.attacks[1].name}}</p>
+                                <p class="p-bold">Dano: </p><p> {{card.attacks[1].damage}}</p>
+                                <p class="p-bold">Custo: </p><p> {{card.attacks[1].cost}}</p><br>
+                                    <p class="p-bold">Descrição:</p> 
+                                    <p>{{card.attacks[1].text}}</p>
+                            <hr>
+                            <li class=""><p class="p-bold"> Resistência: </p><p>  {{card.resistances[0].type}}, {{card.resistances[0].value}} </p></li>
+                            <li class=""><p class="p-bold"> Fraquezas: </p><p> {{card.weaknesses[0].type}}, {{card.weaknesses[0].value}}</p></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center mt-3 btn-mobile">
+                    <button class="btn btn-outline-dark" routerLink = '/cards'> Voltar para CARD's</button>
+                </div>  
             </div>
-
-        </div>
-        
-    
+           
 </div>
 

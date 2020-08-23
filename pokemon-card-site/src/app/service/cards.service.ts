@@ -17,7 +17,7 @@ export class CardsService {
 
   // CRUD
   getAllCards(){
-    return this.findByName("charizard")
+    return this.findByName("")
     
   }
 

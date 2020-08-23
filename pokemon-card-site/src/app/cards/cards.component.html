@@ -1,5 +1,9 @@
 <div class="container">
-    <h1>Listando os cards Pokemon</h1>
+    <h1 class="text-center">Listando os cards Pokemon</h1>
+    <p>
+        Agora vou listar alguns Pokemon para você, mas você pode pesquisar o Pokemon que desejar. <br>
+        Basta digitar no campo de busca e clicar no botão pesquisar. 
+    </p>
 
     <div class="input-group mb-2">
         <input type="text" class="form-control" placeholder="Busque aqui seu pokemon. EX: Pikachu" aria-label="Busque aqui seu pokemon. EX: Pikachu" aria-describedby="Busque aqui seu pokemon. EX: Pikachu" [(ngModel)]="name">
@@ -16,7 +20,8 @@
         <!-- Tem que trazer: ID, Nome, Nationalpokedexnumber, hp, imageUrl -->
                 <div class="card container-card">
                     <div class="card-body  mt-3">
-                    <img [src]="cards.imageUrl" alt="">
+                        <a  [routerLink]="'/verCard/' + cards.id"> <img [src]="cards.imageUrl" alt=""></a>
+                    
                         <p class="card-title title mt-4">Pokemon : {{ cards.name }}</p>
                         <div class="textCard mb-4">
                             <span> ID: {{ cards.id }}</span>
