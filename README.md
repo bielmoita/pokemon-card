@@ -1,7 +1,23 @@
 # POKEMON-CARD
+<p align="center">
 <img src="https://img.shields.io/badge/Angular-9.1.1-red"> <img src="https://img.shields.io/badge/NETLIFY-DEPLOY-blue">
+</p>
 
-Contruir um front para consumir a API do [PokemonTCG](https://pokemontcg.io/)
+
+> Status do Projeto: :warning: Em Desenvolvimento.
+
+### Tópicos 
+:small_red_diamond: [Descrição do projeto](#descrição-do-projeto)
+:small_red_diamond: [Funcionalidades](#funcionalidades)
+:small_red_diamond: [Deploy da Aplicação](#deploy-da-aplicação-dash)
+:small_red_diamond: [Pré-requisitos](#pré-requisitos)
+:small_red_diamond: [Como rodar a aplicação](#como-rodar-a-aplicação-arrow_forward)
+
+## Descrição do projeto
+<p align="justify">
+  Contruir um front para consumir a API do [PokemonTCG](https://pokemontcg.io/)
+</p>
+
 
 ### **Para rodar**
 O projeto foi desenvolvido com o **Angular 9** no Front e **Java Spring-boot** no Back, com uma base de dados em **mySQL**.
