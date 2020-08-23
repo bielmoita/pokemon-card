@@ -1,27 +1,32 @@
-<div>
+<div class="container">
     <h1>Ver Card Pokemon</h1>
 
-    <div >
-        <!-- Tem que trazer: ID, Nome, Nationalpokedexnumber, hp, imageUrl -->
-        <div>
-            {{ card.name }}
-        </div>
+ 
 
-        <div>
-            {{ card.hp }}
-        </div>
+        <div class="row">
+            <div class="col-6">
+                <img [src]="card.imageUrlHiRes" alt="" class="mr-5 mb-5 ">
+            </div>
 
-        <div>
-            {{ card.id }}
-        </div>
+            <div class="col-6">
+               <ul class="list-group">
+                   <li class="list-group-item d-flex justify-content-between align-items-center"><p> Nome: {{ card.name }}</p></li>
+                   <li class="list-group-item"><p> ID: {{ card.id }}</p></li>
+                   <li class="list-group-item"><p> Tipo: {{card.types}}</p></li>
+                   <li class="list-group-item"><p> Ataques: <br> 
+                    Ataque 1) {{card.attacks[0].name}} - Dano: {{card.attacks[0].damage}} - Custo: {{card.attacks[0].cost}}<br>
+                    Descrição: {{card.attacks[0].text}}
+                    <br>
+                    Ataque 2) {{card.attacks[1].name}} - Dano: {{card.attacks[1].damage}} - Custo: {{card.attacks[1].cost}} <br>
+                    Descrição: {{card.attacks[1].text}}
+                  </p></li>
+                   <li class="list-group-item"><p> Resistencia: {{card.resistances[0].type}}, {{card.resistances[0].value}} </p></li>
+                   <li class="list-group-item"><p> Fraquezas: {{card.weaknesses[0].type}}, {{card.weaknesses[0].value}}</p></li>
+               </ul>
+            </div>
 
-        <div>
-            {{card.nationalPokedexNumber}}
         </div>
-
-        <div>
-            <img [src]="card.imageUrlHiRes" alt="">
-        </div>
-    </div>
+        
+    
 </div>
 

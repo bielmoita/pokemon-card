@@ -32,7 +32,7 @@ export interface ResultCards{
 }
 
 export interface IAbility{
-     name: string;
+      name: string;
       text: string;
       type: string;
  }
