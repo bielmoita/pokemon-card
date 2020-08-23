@@ -1,6 +1,4 @@
-<p>
-<h1>POKEMON-CARD</h1><img src="https://steamuserimages-a.akamaihd.net/ugc/919172177358187517/83B10AC41DB792B625B4CC645713794C582792EA/" width=80>
-</p>
+<h1>POKEMON-CARD <img src="https://steamuserimages-a.akamaihd.net/ugc/919172177358187517/83B10AC41DB792B625B4CC645713794C582792EA/" width=80></h1>
 
 <p align="center">
 <img src="https://img.shields.io/badge/Angular-9.1.1-red"> <img src="https://img.shields.io/badge/NETLIFY-DEPLOY-blue">
