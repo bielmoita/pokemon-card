@@ -1,4 +1,4 @@
-# POKEMON-CARD
+<h1>POKEMON-CARD</h1><img src="https://steamuserimages-a.akamaihd.net/ugc/919172177358187517/83B10AC41DB792B625B4CC645713794C582792EA/" width=25>
 <p align="center">
 <img src="https://img.shields.io/badge/Angular-9.1.1-red"> <img src="https://img.shields.io/badge/NETLIFY-DEPLOY-blue">
 </p>
@@ -34,7 +34,7 @@ Contrução um front em <i>Angular</i> para consumir a API do <a href"https://po
 
 :heavy_check_mark: Responsividade
 
-## Layout ou Deploy da Aplicação :dash:
+## Deploy da Aplicação :dash:
 
 > Link do deploy da aplicação com netlify: https://pokemon-card-gabriel.netlify.app/home
 
