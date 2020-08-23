@@ -8,9 +8,13 @@
 
 ### Tópicos 
 :small_red_diamond: [Descrição do projeto](#descrição-do-projeto)
+
 :small_red_diamond: [Funcionalidades](#funcionalidades)
+
 :small_red_diamond: [Deploy da Aplicação](#deploy-da-aplicação-dash)
+
 :small_red_diamond: [Pré-requisitos](#pré-requisitos)
+
 :small_red_diamond: [Como rodar a aplicação](#como-rodar-a-aplicação-arrow_forward)
 
 ## Descrição do projeto
