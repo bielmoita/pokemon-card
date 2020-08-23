@@ -19,30 +19,50 @@
 
 ## Descrição do projeto
 <p align="justify">
-  Contruir um front para consumir a API do [PokemonTCG](https://pokemontcg.io/)
+Contrução um front em <i>Angular</i> para consumir a API do <a href"https://pokemontcg.io/">PokemonTCG</a>
 </p>
 
+## Funcionalidades
 
-### **Para rodar**
-O projeto foi desenvolvido com o **Angular 9** no Front e **Java Spring-boot** no Back, com uma base de dados em **mySQL**.
+:heavy_check_mark: Construção de um Front  
 
-Para gerenciar as dependencias no Backend no Java usei o **Maven**.
+:heavy_check_mark: Consumo da API do PokemonTCG
 
-Para fazer funcionar faça o download do projeto.
+:heavy_check_mark: Pesquisa por Cards  
 
-Em seguida, abra a IDE Java de sua preferencia, sugiro o Eclipse. [Download](https://www.eclipse.org/downloads/) caso não tenha IDE's Java.
+:heavy_check_mark: Visualização dos Cards  
 
-Execute o a Classe: **IdentificadorBarCodeApplication.java**.
+:heavy_check_mark: Responsividade
 
-Ele iniciaria o Spring para voce.
+## Layout ou Deploy da Aplicação :dash:
 
-No Front, na pasta do projeto do Angular, abra o gitBash ou o terminal - Windows ou Linux ou Mac.
+> Link do deploy da aplicação com netlify: https://pokemon-card-gabriel.netlify.app/home
 
-Navegue até a pasta do Projeto no diretorio: **SaibaSeuBarCode**.
+## Pré-requisitos
+
+:warning: [Node](https://nodejs.org/en/download/)
+
+:warning: [Angular](https://angular.io/)
 
 
-Execute o comando: **ng serve -o**
+## Como rodar a aplicação :arrow_forward:
 
-Aguarde abrir a janela do seu navegador com o projeto.
+No terminal, clone o projeto: 
 
-PS - Nota de atualização: O Método GET esta funcionando perfeitamente, o método POST esta em Implementação.
+```
+git clone https://github.com/bielmoita/pokemon-card.git
+```
+Ainda no Terminal.
+Vá até o diretório onde clonou o projeto **pokemon-card** e execute o comando **ng serve -o**
+Aguarde ele rodar o node e abrir uma pagina do seu browser.
+O projeto estara rodando em seu computador.
+
+## Desenvolvedores/Contribuintes :octocat:
+| [<img src="https://avatars2.githubusercontent.com/u/49874403?s=400&u=732c2387f6b14597528e693927cd5af874c144d4&v=4" width=115><br><sub>Gabriel Fernando</sub>](https://github.com/bielmoita) | 
+
+
+## Licença 
+
+The [MIT License]() (MIT)
+
+Copyright :copyright: 2020 - Pokemon Card site
