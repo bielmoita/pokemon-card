@@ -1,10 +1,12 @@
-<h1>POKEMON-CARD</h1><img src="https://steamuserimages-a.akamaihd.net/ugc/919172177358187517/83B10AC41DB792B625B4CC645713794C582792EA/" width=50>
+<p>
+<h1>POKEMON-CARD</h1><img src="https://steamuserimages-a.akamaihd.net/ugc/919172177358187517/83B10AC41DB792B625B4CC645713794C582792EA/" width=80>
+</p>
+
 <p align="center">
 <img src="https://img.shields.io/badge/Angular-9.1.1-red"> <img src="https://img.shields.io/badge/NETLIFY-DEPLOY-blue">
 </p>
 
-
-> Status do Projeto: :warning: Em Desenvolvimento.
+> Status do Projeto: :heavy_check_mark: Concluído.
 
 ### Tópicos 
 :small_blue_diamond: [Descrição do projeto](#descrição-do-projeto)
