@@ -4,8 +4,6 @@
 <img src="https://img.shields.io/badge/Angular-9.1.1-red"> <img src="https://img.shields.io/badge/NETLIFY-DEPLOY-blue">
 </p>
 
-> Status do Projeto: :heavy_check_mark: Concluído.
-
 ### Tópicos 
 :small_blue_diamond: [Descrição do projeto](#descrição-do-projeto)
 
@@ -36,7 +34,7 @@ Contrução um front em <i>Angular</i> para consumir a API do <a href"https://po
 
 ## Deploy da Aplicação :dash:
 
-> Link do deploy da aplicação no netlify: <a href="https://pokemon-card-gabriel.netlify.app/home" target="_blank" rel="noopener noreferrer" >CLIQUE AQUI</a>
+> Link do deploy da aplicação no netlify: <a href="https://pokemon-card-gabriel.netlify.app/home" target="_blanked" rel="noopener noreferrer" >CLIQUE AQUI</a>
 
 
 ## Pré-requisitos
