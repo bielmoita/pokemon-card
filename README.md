@@ -1,4 +1,4 @@
-<h1>POKEMON-CARD <img src="https://steamuserimages-a.akamaihd.net/ugc/919172177358187517/83B10AC41DB792B625B4CC645713794C582792EA/" width=80></h1>
+<h1 text-align="center">POKEMON-CARD <img src="https://steamuserimages-a.akamaihd.net/ugc/919172177358187517/83B10AC41DB792B625B4CC645713794C582792EA/" width=80></h1>
 
 <p align="center">
 <img src="https://img.shields.io/badge/Angular-9.1.1-red"> <img src="https://img.shields.io/badge/NETLIFY-DEPLOY-blue">
@@ -17,7 +17,7 @@
 
 ## Descrição do projeto
 <p align="justify">
-Contrução um front em <i>Angular</i> para consumir a API do <a href"https://pokemontcg.io/">PokemonTCG</a>
+Contrução um front em <i>Angular</i> para consumir a API do <a href="https://pokemontcg.io/" target="_blank" rel="noopener noreferrer">PokemonTCG</a>
 </p>
 
 ## Funcionalidades
@@ -34,8 +34,7 @@ Contrução um front em <i>Angular</i> para consumir a API do <a href"https://po
 
 ## Deploy da Aplicação :dash:
 
-> Link do deploy da aplicação no netlify: <a href="https://pokemon-card-gabriel.netlify.app/home" target="_blanked" rel="noopener noreferrer" >CLIQUE AQUI</a>
-
+> Link do deploy da aplicação no netlify: <a href="https://pokemon-card-gabriel.netlify.app/home" target="_blank" rel="noopener noreferrer" >CLIQUE AQUI</a>
 
 ## Pré-requisitos
 
@@ -88,7 +87,7 @@ ng serve -o
 Aguarde ele compilar e rodar, o mesmo irá abrir uma aba ou janela do seu browser preferencial no seu computador.
 
 ## Desenvolvedores/Contribuintes :octocat:
-[<img src="https://avatars2.githubusercontent.com/u/49874403?s=400&u=732c2387f6b14597528e693927cd5af874c144d4&v=4" width=115><br><sub>Gabriel Fernando</sub>](https://github.com/bielmoita) 
+[<img src="https://avatars2.githubusercontent.com/u/49874403?s=400&u=732c2387f6b14597528e693927cd5af874c144d4&v=4" width=115><br><sub>Gabriel Fernando</sub>](https://www.linkedin.com/in/gabriel-fernando-mcsilva/) 
 
 ## Licença 
 
